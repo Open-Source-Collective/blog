@@ -1,0 +1,29 @@
+title: Open Source Collective
+description: News and updates from Open Source Collective, the fiscal host for open source projects.
+url: "https://blog.oscollective.org"
+baseurl: ""
+main_site: "https://oscollective.org"
+
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+paginate: 10
+paginate_path: "/page:num/"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
