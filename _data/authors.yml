@@ -1,4 +1,6 @@
 # Map an author handle (as it appears in a post's front matter) to a display name.
 # Handles with no entry here are shown as-is.
-#
-# example-handle: Display Name
+Grace:
+  name: Grace Powers
+nathanhewitt:
+  name: Nathan Hewitt
